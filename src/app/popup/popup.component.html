@@ -1,0 +1,176 @@
+<span class="popbtn" (click)="toggleClass1()">Popup</span>
+<span class="popbtn" (click)="toggleClass2()">Note</span>
+
+<div class="popup" [ngClass]="pop">
+	<div class="popup-content">
+		<button class="closebtn" (click)="clicked($event)">close</button>
+		
+		<div class="holdem-block">
+			<div class="holdem-content">
+				<div class="top-head">
+					<a href="#" class="back-btn"> &#60; </a>
+					<h6>NL Texas Holdem -</h6>
+					<span>One pair - $123 / $456</span>
+					<div class="date-time">
+						<span class="date">04 Aug 17 -</span><span class="time">23:46</span>
+					</div>
+				</div>
+				
+				<div class="gaming-table-block">
+					<div class="game-table">
+					<img src="../../assets/images/game-table.PNG">
+					</div>
+					<div class="players-list">
+						<h6>Players List</h6>
+						<p>
+							to catch mice ($2.47) <br>
+							Mr The Mtr ($2.22) <br>
+							DAMIANOWICZ ($2.00) <br>
+							Nesterov1979 ($6.04) <br>
+							My_User_Name ($2.00) <br>
+							Tweet_son ($2.26) <br>
+							Valitek ($0.41)
+						</p>
+					</div>
+				</div>
+				
+				<div class="table-main-points">
+					<div class="point-row">
+						<h6>ANTES/BLINDS</h6>
+						<p>Postselection ensures that us ever undertakes laborious physical exercise</p>
+					</div>
+					<div class="point-row">
+						<h6>PRE/FLOP</h6>
+						<p>Lloyd and cos idea is to use postselection to make this process happen in reverse. Postselection ensures that us ever undertakes laborious physical exercise</p>
+					</div>
+					<div class="point-row">
+						<h6>FLOP[7H, AH, JC]</h6>
+						<p>Postselection ensures that us ever undertakes laborious physical exercise</p>
+					</div>
+					<div class="point-row">
+						<h6>FLOP[7H, AH, JC]</h6>
+						<p>Postselection ensures that us ever undertakes laborious physical exercise</p>
+					</div>
+					<div class="point-row">
+						<h6>FLOP[7H, AH, JC]</h6>
+						<p>Postselection ensures that us ever undertakes laborious physical exercise</p>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+	</div>
+</div>
+
+<div class="player-on-block" [ngClass]="note">
+	
+	<div class="player-on-content">
+		<button class="closebtn" (click)="clicked1($event)">close</button>
+		<img src="../../assets/images/Nl-Texas.PNG">
+		<a class="player-btn" (click)="playerclick($event)" >Player note</a>
+		<div class="player-note-block" [ngClass]="playerbtn">
+			<div class="player-note-content">
+				<section class="top-section">
+					<h6>Player Note</h6>
+					<div class="choose">
+						<a class="select-btn" (click)="selectclick($event)" [ngClass]="selectbtn">select</a>
+						<a class="cancel-btn" (click)="cancelclick($event)" [ngClass]="cancelbtn">cancel</a>
+						<a class="delete-btn" [ngClass]="deletebtn">delete</a>
+					</div>
+				</section>
+				<section class="content-section">
+					<div class="note-points">
+						<div class="ridio-box" >
+							<input type="checkbox" id="s-option" name="selector">
+							<label for="s-option" (click)="toggleClass3()"></label>
+
+							<div class="check"></div>
+						  </div>
+						<a href="#" class="online user-position">Cash0120</a>
+						<p>Nor agin is there anyone who loves or pursues or desires to obtain pain of itself </p>
+					</div>
+					<div class="note-points">
+						<div class="ridio-box">
+							<input type="checkbox" id="p-option" name="selector">
+							<label for="p-option" (click)="toggleClass3()"></label>
+
+							<div class="check"></div>
+						</div>
+						<a class="empty" (click)="personalnote($event)">Manager_2</a>
+						
+					</div>
+					<div class="note-points">
+						<div class="ridio-box">
+							<input type="checkbox" id="k-option" name="selector">
+							<label for="k-option"></label>
+
+							<div class="check"></div>
+						</div>
+						<a href="#" class="empty">Wdrz17</a>
+						
+					</div>
+					<div class="note-points">
+						<div class="ridio-box">
+							<input type="radio" id="t-option" name="selector">
+							<label for="t-option"></label>
+
+							<div class="check"><div class="inside"></div></div>
+						  </div>
+						<a href="#" class="offline user-position">Cash0120</a>
+						<p>Nor agin is there anyone who loves or pursues or desires to obtain pain of itself </p>
+					</div>
+					<div class="note-points">
+						<div class="ridio-box">
+							<input type="checkbox" id="n-option" name="selector">
+							<label for="n-option"></label>
+
+							<div class="check"></div>
+						</div>
+						<a href="#" class="busy user-position">Cash0120</a>
+						<p>Nor agin is there anyone who loves or pursues or desires to obtain pain of itself </p>
+					</div>
+					<div class="note-points">
+						<div class="ridio-box">
+							<input type="checkbox" id="a-option" name="selector">
+							<label for="a-option"></label>
+
+							<div class="check"></div>
+						</div>
+						<a href="#" class="away user-position">Cash0120</a>
+						<p>Nor agin is there anyone who loves or pursues or desires to obtain pain of itself </p>
+					</div>
+					
+				</section>
+				<div class="personal-note" [ngClass]="personal">
+					<section class="top-section">
+						<h6>Player Note</h6>
+					</section>
+					<section class="content-section">
+						<div class="note-points">
+							<a href="#" class="online user-position">Cash0120</a>
+							<textarea placeholder="Hi How are you"></textarea>
+						</div>
+						<div class="status-view">
+							<ul>
+								<li><a href="#" class="online"></a></li>
+								<li><a href="#" class="offline"></a></li>
+								<li><a href="#" class="away"></a></li>
+								<li><a href="#" class="busy"></a></li>
+							</ul>
+						</div>
+						
+						<div class="buttons-block">
+							<ul>
+								<li><a href="#" class="discard">Discard Changes</a></li>
+								<li><a href="#" class="save">Save Player Note</a></li>
+							</ul>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</div>
+	 

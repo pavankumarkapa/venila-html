@@ -1,0 +1,394 @@
+/* line 3, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+app-hands-history {
+  width: 100%;
+  float: left; }
+
+/* line 7, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+.side-menu-block {
+  width: 25%;
+  float: left;
+  background: #0f1523;
+  padding: 15px 0;
+  border-radius: 5px; }
+  /* line 14, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+  .side-menu-block .top-filter-blocks {
+    padding: 0 10px; }
+    /* line 17, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+    .side-menu-block .top-filter-blocks ul {
+      width: 100%;
+      float: left;
+      border: 1px solid #fff;
+      border-radius: 3px;
+      margin-bottom: 20px; }
+      /* line 23, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+      .side-menu-block .top-filter-blocks ul li {
+        width: 50%;
+        float: left; }
+        /* line 26, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+        .side-menu-block .top-filter-blocks ul li a {
+          display: block;
+          padding: 10px;
+          color: #fff;
+          position: relative;
+          text-align: center; }
+          /* line 32, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+          .side-menu-block .top-filter-blocks ul li a:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            border-left: 1px solid #fff; }
+          /* line 40, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+          .side-menu-block .top-filter-blocks ul li a:hover, .side-menu-block .top-filter-blocks ul li a.active {
+            background: #000; }
+        /* line 46, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+        .side-menu-block .top-filter-blocks ul li:first-child a:before {
+          border: none; }
+  /* line 57, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+  .side-menu-block .menu-items {
+    padding: 10px;
+    width: 100%;
+    float: left; }
+    /* line 63, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+    .side-menu-block .menu-items ul li {
+      width: 100%;
+      float: left;
+      border-bottom: 1px solid #fff;
+      position: relative; }
+      /* line 68, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+      .side-menu-block .menu-items ul li a {
+        display: block;
+        padding: 10px 0;
+        color: #fff;
+        font-size: 16px;
+        line-height: 24px;
+        position: relative; }
+        /* line 75, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+        .side-menu-block .menu-items ul li a:after {
+          display: block;
+          content: "\2026";
+          position: absolute;
+          top: 0;
+          right: 0;
+          color: #fff;
+          font-size: 30px;
+          height: 100%;
+          transform: rotate(-90deg); }
+      /* line 88, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+      .side-menu-block .menu-items ul li .cards ul {
+        margin: 0 -10px; }
+        /* line 90, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+        .side-menu-block .menu-items ul li .cards ul .item {
+          width: auto;
+          float: left;
+          padding: 0px 10px 10px 10px; }
+          /* line 95, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+          .side-menu-block .menu-items ul li .cards ul .item a {
+            width: 30px;
+            height: 50px;
+            border-radius: 4px;
+            background: gray; }
+            /* line 100, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+            .side-menu-block .menu-items ul li .cards ul .item a:after {
+              content: "";
+              display: none; }
+
+/* line 116, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+i.down:after {
+  content: "\2663";
+  display: inline-block; }
+
+/* line 123, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+.right-content-block {
+  width: 75%;
+  float: left;
+  padding-left: 15px; }
+
+/* line 128, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+.hands-history-block {
+  color: #fff; }
+  /* line 130, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+  .hands-history-block .left-content {
+    width: 70%;
+    float: left;
+    padding-right: 15px; }
+  /* line 135, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+  .hands-history-block .right-content {
+    width: 30%;
+    float: left; }
+  /* line 139, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+  .hands-history-block h3 {
+    font-size: 24px;
+    color: white;
+    line-height: 30px;
+    padding: 10px 0;
+    margin-bottom: 15px; }
+  /* line 146, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+  .hands-history-block .head {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 9px 0;
+    display: block; }
+  /* line 152, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+  .hands-history-block .hands-history-table {
+    background: -moz-linear-gradient(26deg, black 0%, #1a2c4f 49%, black 100%);
+    /* ff3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, black), color-stop(49%, #1a2c4f), color-stop(100%, black));
+    /* safari4+,chrome */
+    background: -webkit-linear-gradient(26deg, black 0%, #1a2c4f 49%, black 100%);
+    /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(26deg, black 0%, #1a2c4f 49%, black 100%);
+    /* opera 11.10+ */
+    background: -ms-linear-gradient(26deg, black 0%, #1a2c4f 49%, black 100%);
+    /* ie10+ */
+    background: linear-gradient(64deg, black 0%, #1a2c4f 49%, black 100%);
+    /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=1 );
+    /* ie6-9 */
+    border-radius: 4px;
+    border: 1px solid #023250; }
+    /* line 163, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+    .hands-history-block .hands-history-table .tr {
+      border-bottom: 1px solid #023250;
+      padding: 10px; }
+    /* line 167, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+    .hands-history-block .hands-history-table .time {
+      float: left;
+      width: 70px;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: bold; }
+    /* line 174, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+    .hands-history-block .hands-history-table .discription {
+      width: 210px;
+      display: inline-block;
+      vertical-align: middle; }
+      /* line 178, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+      .hands-history-block .hands-history-table .discription .btn {
+        border-radius: 50px;
+        display: inline-block;
+        color: #fff;
+        font-size: 16px;
+        padding: 2px 15px;
+        line-height: 20px; }
+        /* line 185, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+        .hands-history-block .hands-history-table .discription .btn.pink {
+          background: -moz-linear-gradient(11deg, #fd4281 0%, #fb204c 100%);
+          /* ff3.6+ */
+          background: -webkit-gradient(linear, left top, right top, color-stop(0%, #fd4281), color-stop(100%, #fb204c));
+          /* safari4+,chrome */
+          background: -webkit-linear-gradient(11deg, #fd4281 0%, #fb204c 100%);
+          /* safari5.1+,chrome10+ */
+          background: -o-linear-gradient(11deg, #fd4281 0%, #fb204c 100%);
+          /* opera 11.10+ */
+          background: -ms-linear-gradient(11deg, #fd4281 0%, #fb204c 100%);
+          /* ie10+ */
+          background: linear-gradient(79deg, #fd4281 0%, #fb204c 100%);
+          /* w3c */
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fd4281', endColorstr='#fb204c',GradientType=1 );
+          /* ie6-9 */ }
+        /* line 194, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+        .hands-history-block .hands-history-table .discription .btn.green {
+          background: -moz-linear-gradient(11deg, #0ab567 0%, #067789 100%);
+          /* ff3.6+ */
+          background: -webkit-gradient(linear, left top, right top, color-stop(0%, #0ab567), color-stop(100%, #067789));
+          /* safari4+,chrome */
+          background: -webkit-linear-gradient(11deg, #0ab567 0%, #067789 100%);
+          /* safari5.1+,chrome10+ */
+          background: -o-linear-gradient(11deg, #0ab567 0%, #067789 100%);
+          /* opera 11.10+ */
+          background: -ms-linear-gradient(11deg, #0ab567 0%, #067789 100%);
+          /* ie10+ */
+          background: linear-gradient(79deg, #0ab567 0%, #067789 100%);
+          /* w3c */
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0ab567', endColorstr='#067789',GradientType=1 );
+          /* ie6-9 */ }
+        /* line 206, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+        .hands-history-block .hands-history-table .discription .btn i.down:after {
+          content: "\2663";
+          display: inline-block;
+          width: 10px;
+          height: 10px;
+          margin-right: 5px; }
+      /* line 216, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+      .hands-history-block .hands-history-table .discription strong {
+        display: block;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 16px;
+        padding-top: 8px; }
+      /* line 223, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+      .hands-history-block .hands-history-table .discription small {
+        display: inline-block;
+        font-size: 12px;
+        padding-right: 5px; }
+    /* line 229, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+    .hands-history-block .hands-history-table .cards {
+      display: inline-block;
+      vertical-align: middle;
+      width: 145px;
+      padding: 0 10px; }
+      /* line 234, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+      .hands-history-block .hands-history-table .cards ul {
+        margin: 0 -2px; }
+        /* line 236, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+        .hands-history-block .hands-history-table .cards ul li {
+          float: left;
+          padding: 0 2px;
+          margin-bottom: 3px; }
+          /* line 240, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+          .hands-history-block .hands-history-table .cards ul li a.item {
+            display: block;
+            width: 20px;
+            height: 25px;
+            background: grey;
+            border: 1px solid grey;
+            border-radius: 3px; }
+            /* line 247, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+            .hands-history-block .hands-history-table .cards ul li a.item:hover {
+              background: #fff;
+              border: 1px solid red; }
+    /* line 255, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+    .hands-history-block .hands-history-table .buttons {
+      display: inline-block;
+      vertical-align: middle;
+      padding: 0 10px; }
+      /* line 262, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+      .hands-history-block .hands-history-table .buttons a i.play:after, .hands-history-block .hands-history-table .buttons a i.text:after {
+        content: "\2663";
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        margin-right: 5px; }
+      /* line 271, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+      .hands-history-block .hands-history-table .buttons a.btn {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 14px;
+        padding: 5px 7px;
+        line-height: 20px;
+        border: 2px solid #fff;
+        border-radius: 5px;
+        color: #fff;
+        font-weight: 500;
+        margin-right: 5px;
+        transition: all ease-in-out .3s; }
+        /* line 283, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+        .hands-history-block .hands-history-table .buttons a.btn.lightbule {
+          border-color: #00d9fe; }
+        /* line 286, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+        .hands-history-block .hands-history-table .buttons a.btn.orange {
+          border-color: #fd5300; }
+        /* line 289, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+        .hands-history-block .hands-history-table .buttons a.btn:hover {
+          color: #fd5300;
+          box-shadow: 0 2px 3px 1px grey; }
+
+@media only screen and (max-width: 1390px) {
+  /* line 303, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+  .container {
+    width: 1180px; }
+  /* line 306, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+  .side-menu-block {
+    width: 21%; }
+  /* line 309, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+  .right-content-block {
+    width: 79%; }
+  /* line 314, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+  .hands-history-block .hands-history-table .time {
+    width: 50px; }
+  /* line 317, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+  .hands-history-block .hands-history-table .discription {
+    width: 205px; }
+  /* line 320, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+  .hands-history-block .hands-history-table .cards {
+    width: 136px; }
+  /* line 323, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+  .hands-history-block .hands-history-table .buttons {
+    padding: 0; }
+  /* line 327, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+  .hands-history-block .left-content {
+    width: 72%; }
+  /* line 330, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+  .hands-history-block .right-content {
+    width: 28%; } }
+
+@media only screen and (max-width: 1200px) {
+  /* line 336, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+  .container {
+    width: 980px; }
+  /* line 339, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+  .side-menu-block {
+    width: 30%; }
+  /* line 342, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+  .right-content-block {
+    width: 70%; }
+  /* line 346, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+  .hands-history-block .left-content {
+    width: 100%; }
+  /* line 349, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+  .hands-history-block .right-content {
+    width: 100%; }
+    /* line 352, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+    .hands-history-block .right-content .reload-bonus-block .bonus-item {
+      margin: 30px auto 0;
+      max-width: 350px; } }
+
+@media only screen and (max-width: 1024px) {
+  /* line 363, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+  .container {
+    width: 750px; }
+  /* line 370, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+  .side-menu-block .top-filter-blocks ul li a {
+    padding: 10px 0; }
+  /* line 379, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+  .hands-history-block .hands-history-table .buttons {
+    margin-top: 14px;
+    padding: 0; } }
+
+@media only screen and (max-width: 767px) {
+  /* line 388, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+  .container {
+    width: 100%; }
+  /* line 392, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+  .side-menu-block {
+    width: 100%;
+    padding: 10px 20px; }
+    /* line 396, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+    .side-menu-block .top-filter-blocks ul {
+      margin-bottom: 0; }
+    /* line 400, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+    .side-menu-block .menu-items {
+      display: none; }
+  /* line 404, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+  .right-content-block {
+    width: 100%;
+    padding: 0 10px; }
+  /* line 409, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+  .hands-history-block .left-content {
+    padding-right: 0; }
+  /* line 413, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+  .hands-history-block .hands-history-table .tr {
+    position: relative;
+    padding-bottom: 30px; }
+  /* line 418, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+  .hands-history-block .hands-history-table .discription strong {
+    position: absolute;
+    top: 10px;
+    right: 10px; }
+  /* line 423, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+  .hands-history-block .hands-history-table .discription .dis-text {
+    position: absolute;
+    right: 10px;
+    bottom: 10px; }
+  /* line 429, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+  .hands-history-block .hands-history-table .cards {
+    width: 100%;
+    padding: 10px 0 0 0; }
+  /* line 433, C:/pavan/my/my-new-angular-files/New-agcli/my-project/src/styles/custompages/hands-history.scss */
+  .hands-history-block .hands-history-table .buttons {
+    display: block;
+    text-align: center; } }
+
+/*# sourceMappingURL=hands-history.css.map */
